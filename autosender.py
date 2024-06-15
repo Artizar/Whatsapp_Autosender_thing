@@ -7,7 +7,7 @@ driver = webdriver.Chrome()
 driver.maximize_window()
 driver.get('https://web.whatsapp.com')
 
-names,nama=['Rauf'],0
+names,nama=['insert your contact's name'],0
 pesan = input("Masukan Pesan:")
 confirmation = input("Is the message ready to be sent? (yes/no): ").lower()
 
